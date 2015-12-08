@@ -1,0 +1,260 @@
+
+@import url(https://fonts.googleapis.com/css?family=Indie+Flower);
+
+#image{
+	position:absolute;
+	height: 30px;
+	width: 30px;
+}
+
+body {
+	background-image: url("http://www.myfreetextures.com/wp-content/uploads/2015/01/grass-free-texture.jpg");
+	background-size: 100%, 100%;
+	background-repeat: no-repeat;
+	text-align: center;
+	margin: 0, auto;
+	font-family: 'Indie Flower', cursive;
+	cursor: url("images/bug.png"), auto;
+}
+
+#container1 {
+	margin-top: 25px;
+}
+
+#container2 {
+	margin-top: 0px;
+}
+
+#div1 {
+display: inline-block;
+background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+background-size: 100px, 100px;
+width: 100px;
+height: 250px;
+margin-bottom: 100px;
+margin-top: 0;
+
+}
+
+#div2 {
+	display: inline-block;
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 100px, 100px;
+	width: 100px;
+	height: 100px;
+	margin-bottom: 40px;
+
+	
+}
+
+#div3 {
+	display: inline-block;
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 100px, 100px;
+	width: 100px;
+	height: 250px;
+	margin-left: 50px;
+	margin-top: 30px;
+	
+}
+
+#div4 {
+	display: inline-block;
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 100px, 100px;
+	width: 100px;
+	height: 300px;
+	margin-left: 50px;
+	margin-bottom: 50px;
+	
+}
+
+
+
+#button2 {
+	display: inline-block;
+	background-image: url("http://energyandgold.com/wp-content/uploads/2015/11/gold.jpg");
+	background-size: 50px, 25px;
+	width: 60px;
+	height: 60px;
+	margin-left: 200px;
+	position: relative;
+	bottom: 100px;
+	border-radius: 100px;
+	color: white;
+	border-color: black;
+	font-size: 16px;
+	
+}
+
+#button1 {
+	display: inline-block;
+	width: 60px;
+	height: 60px;
+	margin-right: 200px;
+	position: relative;
+	bottom: 50px;
+	border-radius: 100px;
+	margin-top: 100px;
+	border-color: black;
+	background-color: #00ffff;
+	font-size: 16px;
+
+	
+}
+
+#div5 {
+	display: inline-block;
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 100px, 100px;
+	height: 100px;
+	width: 100px;
+	margin-left: 50px;
+	
+}
+
+
+#div6 {
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 50px, 40%;
+	display: inline-block;
+	height: 50px;
+	width: 40%;
+	margin-top: 200px;
+	float: left;
+	margin: 0;
+}
+
+#scoreCounter {
+	margin-top: 10px;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+	background-color: black;
+}
+
+#label {
+/*	height: 30px;*/
+/*	width: 10%;
+	position: absolute;*/
+	color: white;
+	background-color: black;
+}
+
+#display {
+/*	height: 30px;*/
+/*	width: 10%;
+	position: absolute;*/
+/*	margin-top: 40px;*/
+	color: white;
+	background-color: black;
+	
+}
+
+
+#div7 {
+	background: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-position: 50px, 49%;
+	display: inline-block;
+	height: 50px;
+	width: 49%;
+	margin-top: 0px;
+	margin: 0;
+
+}
+
+#div8 {
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-position: 50px, 10%;
+	display: inline-block;
+	height: 50px;
+	width: 10%;
+	float: right;
+	margin: 0;
+}
+
+#div9{
+	background: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-position: 50px, 95%;
+	height: 50px;
+	width: 95%;
+	float: right;
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+#button3 {
+	
+	display:inline-block;
+	position: relative;
+	width: 60px;
+	height: 60px;
+	margin-top: 50px;
+	background-image: url("http://energyandgold.com/wp-content/uploads/2015/11/gold.jpg");
+	background-position: 50px, 25px;
+	border-radius: 100px;
+	color: white;
+	border-color: black;
+	font-size: 16px;
+}
+
+#div10 {
+	width: 60px;
+	height: 60px;
+	background-image: url("http://ffxiv.gamerescape.com/w/images/thumb/8/8c/Smoothed_Stone_Icon.png/40px-Smoothed_Stone_Icon.png");
+	margin-top: 50px;
+	position: absolute;
+	border-radius: 60px;
+}
+
+#bird {
+	width: 100px;
+	height: 100px;
+	background-image: url("https://cdn0.iconfinder.com/data/icons/PRACTIKA/128/twitter.png"); 
+	background-position: 10px, 60px;
+	margin-left: 10px;
+	margin-bottom: 20px;
+	position: absolute;
+	padding-top: 30px;
+	padding-right: 25px;
+
+}
+
+#container {
+	width:200px;
+	height:100px;
+	padding-left: 500px;
+	padding-right: 300px;
+	margin: 0;
+	display: inline-block;
+	
+	
+}
+
+#last {
+	width: 60px;
+	height: 60px;
+	margin-bottom: 50px;
+	margin-left: 400px;
+	position: relative;
+	border-radius: 100px;
+	border-color: black;
+	background: #00ffff;
+	font-size: 16px;
+}
+
+#gameBoard {
+	background-color: black
+	color: white;
+}
+
+#reset {
+	width: 60px;
+	height: 60px;
+	position: relative;
+	border-radius: 100px;
+	border-color: black;
+	background-color: red;
+	font-size: 16px;
+}
+
