@@ -26,13 +26,13 @@ body {
 }
 
 #div1 {
-display: inline-block;
-background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
-background-size: 100px, 100px;
-width: 100px;
-height: 250px;
-margin-bottom: 100px;
-margin-top: 0;
+	display: inline-block;
+	background-image: url("http://bgfons.com/upload/stone_texture576.jpg");
+	background-size: 100px, 100px;
+	width: 100px;
+	height: 250px;
+	margin-bottom: 100px;
+	margin-top: 0;
 
 }
 
@@ -134,18 +134,13 @@ margin-top: 0;
 }
 
 #label {
-/*	height: 30px;*/
-/*	width: 10%;
-	position: absolute;*/
+
 	color: white;
 	background-color: black;
 }
 
 #display {
-/*	height: 30px;*/
-/*	width: 10%;
-	position: absolute;*/
-/*	margin-top: 40px;*/
+
 	color: white;
 	background-color: black;
 	

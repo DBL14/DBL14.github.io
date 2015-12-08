@@ -1,16 +1,16 @@
 $(document).ready(function() {
 
-	soundManager.setup({
- url: 'soundManager/swf/',
- preferFlash: true,
- onready: function() {
-   var mySound = soundManager.createSound({
-     id: 'aSound', // Could be anything!
-     url: 'bird.mp3'
-   });
-   mySound.play();
- }
-});
+		soundManager.setup({
+	 url: 'soundManager/swf/',
+	 preferFlash: true,
+	 onready: function() {
+	   var mySound = soundManager.createSound({
+	     id: 'aSound', 
+	     url: 'bird.mp3'
+	   });
+	   mySound.play();
+	 }
+	});
 
 	//how many points a player starts with
 	var score = 3;
@@ -47,7 +47,7 @@ $(document).ready(function() {
 			$('#bird').animate({
 				'marginLeft' : "-=500px"
 			});
-			// animateDiv();
+			
 			
 		});
 
@@ -88,9 +88,9 @@ $(document).ready(function() {
 		} else if (player == 0) {
 			player2Score = score;
 			getResult();
-			//game over code
+			
 		$('.shape').off('mouseenter');
-		// $('#gameBoard').slideUp();
+		
 
 		}
 	}
