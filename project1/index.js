@@ -1,11 +1,16 @@
 $(document).ready(function() {
 
-	// var mouse = $("#image")
-	// //attach image to cursor
-	// $(document).mousemove(function(e){
-	// 	mouse.css({left:e.pageX, top:e.pageY});
-	// })
-
+	soundManager.setup({
+ url: 'soundManager/swf/',
+ preferFlash: true,
+ onready: function() {
+   var mySound = soundManager.createSound({
+     id: 'aSound', // Could be anything!
+     url: 'bird.mp3'
+   });
+   mySound.play();
+ }
+});
 
 	//how many points a player starts with
 	var score = 3;
@@ -139,26 +144,7 @@ $(document).ready(function() {
     
 	};
 
-		//bird noise
-
-	// 	soundManager.setup({
-	//   url: 'development/first-project/swf',
-	//   flashVersion: 9, // optional: shiny features (default = 8)
-	//   // optional: ignore Flash where possible, use 100% HTML5 mode
-	//   // preferFlash: false,
-	// })
-  
- //    // Ready to use; soundManager.createSound() etc. can now be called.
- //    // console.log('hello');
- //    var soundOne = soundManager.createSound({
- //    	"id": 'a',
- //    	"url" : "Bird Chirping Sound Effect.mp3"
- //    });
- //    var playButton = document.getElementById("#button1");
-
- //    playButton.addEventListener("click", function(event){
- //      soundOne.togglePause();
- //    });
+	
 
 });
 
